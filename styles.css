@@ -1,0 +1,167 @@
+root { 
+    display: block;
+}
+body, div, th, td, tr, table, ul, li {margin: 0px; padding: 0px;}
+
+body {width: 100%; height: 100%;}
+#container {width: 100%; height: 100%;background: url(img/fond.png) repeat;}
+
+#content {
+    display: block;
+    width: 990px;
+    height: 667px;
+    position: relative;
+    top: 0px;
+    overflow: hidden;
+    margin: auto;
+}
+
+#grid {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+
+.tile {
+    display: block;
+    position: absolute;
+    width: 990px;
+    height: 667px;
+}
+.caption {position: absolute; display: none; top: 0; left: 0; }
+.tile .button {position: absolute; display: none; cursor: pointer; overflow: visible;width: 165px; height: 155px;}
+.tile .button div { width: 165px; height: 155px; position: absolute; top: 0px; left: 0px;}
+
+#boom {top: 0; left: 0; display: none; background: url(img/boom.jpg) top left no-repeat;}
+#white {top: 0; left: 0; display: none; background-color: white;}
+
+/* column 1 */
+#tile0 {top: 0px; left: 0px; background: url(img/ecran1/ecran1_fond.jpg) top left no-repeat;}
+#tile0 .button { left: 414px;top: 462px;}
+#tile0 #button0 {background: url(img/ecran1/btn_forer.png) top left no-repeat;}
+
+#tile1 {top: 667px; left: 0px; background: url(img/ecran2/ecran2_fond.jpg) top left no-repeat;}
+#tile1 .button { left: 414px;top: 462px;}
+#tile1 #button1 {background: url(img/ecran2/btn_consolider.png) top left no-repeat;}
+#caption10 {background: url(img/ecran2/wording1.png) top left no-repeat; height: 147px;left: 127px;top: 10px;width: 201px;position: absolute;}
+
+#tile2 {top: 1334px; left: 0px; background: url(img/ecran3/ecran3_fond.jpg) top left no-repeat;}
+#tile2 .button { left: 414px;top: 462px;}
+#tile2 #button2 {background: url(img/ecran3/btn_fracturer.png) top left no-repeat;}
+#caption20 {background: url(img/ecran3/wording1.png) top left no-repeat; width: 170px; height: 150px;top:26px; left: 460px;position: absolute;}
+#caption21 {background: url(img/ecran3/wording2.png) top left no-repeat;left: 674px;position: absolute;top: 108px;width: 286px;height: 147px;}
+
+/* boom */
+
+#tile3 {top: 1334px; left: 990px; background: url(img/ecran4/ecran5.jpg) top left no-repeat;}
+#tile3 .button { left: 414px;top: 462px;}
+#tile3 #button3 {background: url(img/ecran4/btn_extraire.png) top left no-repeat;}
+#caption30 {background: url(img/ecran4/wording1.png) top left no-repeat; width: 209px; height: 198px;top:13px; left: 480px;}
+
+#tile4 {top: 667px; left: 990px; background: url(img/ecran5/ecran6_fond.jpg) top left no-repeat;}
+#tile4 .button { left: 414px;top: 462px;}
+#tile4 #button4 {background: url(img/ecran5/btn_raffiner.png) top left no-repeat;}
+#caption40 {background: url(img/ecran5/wording1.png) top left no-repeat; height: 130px;    left: 600px;    top: 354px;    width: 252px;}
+
+#tile5 {top: 0px; left: 990px; background: url(img/ecran6/ecran7_fond.jpg) top left no-repeat;}
+
+#tile6 {top: 0px; left: 1980px; background: url(img/ecran6/ecran7_fond.jpg) top left no-repeat;}
+#tile6 .button { left: 414px;top: 462px;}
+#tile6 #button6 {background: url(img/ecran6/btn_tout.png) top left no-repeat;}
+#caption60 {background: url(img/ecran6/wording1.png) top left no-repeat;height: 174px; width: 345px; left: 44px;top: 43px; left: 26px;}
+
+#tile7 {top: 667px; left: 1980px; background: url(img/ecran7/ecran8_fond.jpg) top left no-repeat;}
+
+#tile8 {top: 667px; left: 2970px; background: url(img/ecran7/ecran8_fond.jpg) top left no-repeat;}
+#tile8 .button { left: 414px;top: 462px;}
+#tile8 #button8 {background: url(img/ecran7/btn_surface.png) top left no-repeat;}
+#caption80 {background: url(img/ecran7/wording1.png) top left no-repeat; height: 131px;    left: 542px;    top: 223px;    width: 322px;}
+
+#tile9 {top: 0px; left: 2970px; background: url(img/ecran8/ecran9_fond.jpg) top left no-repeat;}
+#tile9 .button {  left: 0; top: 510px;}
+#tile9 #button9 {background: url(img/ecran8/relancer.png) top left no-repeat;    height: 66px; width: 300px;}
+#tile9 .caption {cursor: pointer;}
+#tile9 .caption a {display: block;}
+#caption90 {background: url(img/ecran8/wording1.png) top left no-repeat; height: 100px;
+    left: 648px;
+    top: 431px;
+    width: 222px;}
+#caption91 {background: url(img/ecran8/wording2.png) top left no-repeat; height: 101px;
+    left: 651px;
+    top: 234px;
+    width: 211px;}
+#caption92 {background: url(img/ecran8/wording3.png) top left no-repeat; height: 111px;
+    left: 707px;
+    top: 135px;
+    width: 239px;}
+#caption93 {background: url(img/ecran8/wording4.png) top left no-repeat; height: 88px;
+    left: 100px;
+    top: 230px;
+    width: 185px;}
+#caption94 {background: url(img/ecran8/wording5.png) top left no-repeat;     height: 78px;
+    left: 473px;
+    top: 249px;
+    width: 185px;}
+
+#sharetab {
+    display: block;
+    height: 78px;
+    left: 0;
+    position: absolute;
+    top: 589px;
+    width: 990px;
+}
+#sharetab #tab {
+    background: url("img/share_tab.png") no-repeat scroll bottom left transparent;
+    display: block;
+    height: 78px;
+    width: 89px;
+    left: 800px;
+    position: absolute;
+}
+#sharetab #share {
+    background: url("img/share_bar.png") repeat-x scroll left bottom transparent;
+    display: block;
+    height: 74px;
+    left: 0;
+    position: absolute;
+    top: 80px;
+    width: 990px;
+}
+#sharetab #share #tag {
+    background: url("img/share_tag.png") no-repeat scroll left bottom transparent;
+    bottom: -1px;
+    display: block;
+    height: 76px;
+    left: 60px;
+    position: absolute;
+    width: 203px;
+}
+
+#sharetab #social {
+    display: block;
+    left: 556px;
+    position: absolute;
+    top: 23px;
+    width: 460px;
+}
+#sharetab #social div {
+    display: block;
+    float: left;
+    height: 38px;
+}
+#sharetab #social div#left {
+    background: url("img/share_left.png") no-repeat scroll left top transparent;
+    width: 16px;
+}
+#sharetab #social div#middle {
+    background: url("img/share_bg.png") repeat-x scroll left top transparent;
+    padding: 9px;
+    text-align: center;
+    width: 360px;
+}
+#sharetab #social div#right {
+    background: url("img/share_right.png") no-repeat scroll right top transparent;
+    width: 20px;
+}
